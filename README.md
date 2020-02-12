@@ -1,2 +1,2 @@
-# quam_public
-Repository for players
+# Quam Public
+Repository and webpage for players of the campaign
