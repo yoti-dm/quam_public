@@ -9,6 +9,12 @@
 	text-align: center;
 }
 
+body
+{
+	margin-left: 20%;
+	width: 60%;
+}
+
 h1, h2
 {
 	text-align: center;
@@ -18,6 +24,35 @@ a
 {
 	text-decoration: none;
 	color: black;
+}
+
+table
+{
+
+	width: 60%;
+	margin-left: 20%;
+	border: 1px solid black;
+	border-collapse: collapse;
+	margin-bottom: 1em;
+}
+
+th, td
+{
+	margin-top: 1em;
+	margin-bottom: 1em;
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+
+li
+{
+	text-align: left;
+}
+
+.dice_cell
+{
+	width: 1%;
+	white-space: nowrap;
 }
 
 a:hover
@@ -31,4 +66,18 @@ a:hover
 	font-family: insomnia;
 	font-size: 80px;
 
+}
+
+.columns_div
+{
+	display: flex;
+	flex-direction: row;
+	margin-left: 30%;
+	width: 40%;
+}
+
+.column
+{
+	margin: 0px;
+	width: 50%;
 }
