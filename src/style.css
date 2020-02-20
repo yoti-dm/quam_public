@@ -80,3 +80,54 @@ a:hover
 	margin: 0px;
 	width: 50%;
 }
+
+.white_table
+{
+	width: 60%;
+	margin-left: 20%;
+	border: none;
+	border-collapse: collapse;
+	margin-bottom: 1em;
+}
+
+.white_table th, .white_table td
+{
+	margin-top: 1em;
+	margin-bottom: 1em;
+	border: none;
+	border-collapse: collapse;
+	text-align: left;
+	padding-left: 24px;
+}
+.life
+{
+	content:url(../src/img/life.png);
+	float: left;
+	margin-left: 8px;
+	width:24px;
+	height: 24px;
+}
+.power
+{
+	content:url(../src/img/power.png);
+	float: left;
+	margin-left: 8px;
+	width:24px;
+	height: 24px;
+}
+.change
+{
+	content:url(../src/img/change.png);
+	float: left;
+	margin-left: 8px;
+	width:24px;
+	height: 24px;
+}
+.death
+{
+	content:url(../src/img/death.png);
+	float: left;
+	margin-left: 8px;
+	width:24px;
+	height: 24px;
+}
